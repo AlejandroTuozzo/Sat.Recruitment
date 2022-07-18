@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api.Test", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api.Business", "Sat.Recruitment.Api.Business\Sat.Recruitment.Api.Business.csproj", "{DC8F91E3-DD1C-4C6A-ACAA-A0DE699073F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat.Recruitment.Api.DTO", "Sat.Recruitment.Api.DTO\Sat.Recruitment.Api.DTO.csproj", "{D071C60C-CA3D-41DC-B1F7-BAC63392742A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api.DTO", "Sat.Recruitment.Api.DTO\Sat.Recruitment.Api.DTO.csproj", "{D071C60C-CA3D-41DC-B1F7-BAC63392742A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat.Recruitment.Api.IoC", "Sat.Recruitment.Api.IoC\Sat.Recruitment.Api.IoC.csproj", "{472E46C5-CDCE-42FF-8219-9CD8472FC6F8}"
 EndProject
