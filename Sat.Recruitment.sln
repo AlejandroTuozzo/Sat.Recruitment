@@ -5,7 +5,17 @@ VisualStudioVersion = 16.0.30709.64
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api", "Sat.Recruitment.Api\Sat.Recruitment.Api.csproj", "{1F342EA2-E7B1-4E53-AB93-9C62288D3FB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat.Recruitment.Test", "Sat.Recruitment.Test\Sat.Recruitment.Test.csproj", "{42E696E9-2672-4B91-AD96-353A69F7219C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api.Test", "Sat.Recruitment.Test\Sat.Recruitment.Api.Test.csproj", "{42E696E9-2672-4B91-AD96-353A69F7219C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api.Business", "Sat.Recruitment.Api.Business\Sat.Recruitment.Api.Business.csproj", "{DC8F91E3-DD1C-4C6A-ACAA-A0DE699073F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat.Recruitment.Api.DTO", "Sat.Recruitment.Api.DTO\Sat.Recruitment.Api.DTO.csproj", "{D071C60C-CA3D-41DC-B1F7-BAC63392742A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat.Recruitment.Api.IoC", "Sat.Recruitment.Api.IoC\Sat.Recruitment.Api.IoC.csproj", "{472E46C5-CDCE-42FF-8219-9CD8472FC6F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api.Domain", "Sat.Recruitment.Api.Domain\Sat.Recruitment.Api.Domain.csproj", "{59819D05-B26B-4DDD-8E60-226B131AC36D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api.DataAccess", "Sat.Recruitment.Api.DataAccess\Sat.Recruitment.Api.DataAccess.csproj", "{C415A642-C3C5-4713-A275-A722971C6276}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{42E696E9-2672-4B91-AD96-353A69F7219C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42E696E9-2672-4B91-AD96-353A69F7219C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42E696E9-2672-4B91-AD96-353A69F7219C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8F91E3-DD1C-4C6A-ACAA-A0DE699073F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8F91E3-DD1C-4C6A-ACAA-A0DE699073F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8F91E3-DD1C-4C6A-ACAA-A0DE699073F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8F91E3-DD1C-4C6A-ACAA-A0DE699073F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D071C60C-CA3D-41DC-B1F7-BAC63392742A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D071C60C-CA3D-41DC-B1F7-BAC63392742A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D071C60C-CA3D-41DC-B1F7-BAC63392742A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D071C60C-CA3D-41DC-B1F7-BAC63392742A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472E46C5-CDCE-42FF-8219-9CD8472FC6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472E46C5-CDCE-42FF-8219-9CD8472FC6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472E46C5-CDCE-42FF-8219-9CD8472FC6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472E46C5-CDCE-42FF-8219-9CD8472FC6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59819D05-B26B-4DDD-8E60-226B131AC36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59819D05-B26B-4DDD-8E60-226B131AC36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59819D05-B26B-4DDD-8E60-226B131AC36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59819D05-B26B-4DDD-8E60-226B131AC36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C415A642-C3C5-4713-A275-A722971C6276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C415A642-C3C5-4713-A275-A722971C6276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C415A642-C3C5-4713-A275-A722971C6276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C415A642-C3C5-4713-A275-A722971C6276}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sat.Recruitment.Api.Business\Sat.Recruitment.Api.Business.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Api.DataAccess\Sat.Recruitment.Api.DataAccess.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Api.Domain\Sat.Recruitment.Api.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

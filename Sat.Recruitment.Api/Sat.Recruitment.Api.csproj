@@ -5,8 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sat.Recruitment.Api.Business\Sat.Recruitment.Api.Business.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Api.Domain\Sat.Recruitment.Api.Domain.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Api.DTO\Sat.Recruitment.Api.DTO.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Api.IoC\Sat.Recruitment.Api.IoC.csproj" />
   </ItemGroup>
 
   <ItemGroup>
